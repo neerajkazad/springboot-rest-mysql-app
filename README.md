@@ -10,22 +10,36 @@ You can test the application using the following sample endpoints and request da
 
 ### 🔹 Create Course
 
-**POST** `http://localhost:8080/course`
+**POST**  
+`http://localhost:8080/course`
 
 ```json
 {
   "name": "Java",
   "price": 3000.00
 }
+```
 
-###🔹 Get All Courses
-GET http://localhost:8080/courses
+---
 
-🔹 Get Course By ID
-GET http://localhost:8080/course/3
+### 🔹 Get All Courses
 
-🔹 Update Course
-**PUT** `http://localhost:8080/course`
+**GET**  
+`http://localhost:8080/courses`
+
+---
+
+### 🔹 Get Course By ID
+
+**GET**  
+`http://localhost:8080/course/3`
+
+---
+
+### 🔹 Update Course
+
+**PUT**  
+`http://localhost:8080/course`
 
 ```json
 {
@@ -33,3 +47,11 @@ GET http://localhost:8080/course/3
   "name": "Angular",
   "price": 2500
 }
+```
+
+---
+
+### 🔹 Delete Course
+
+**DELETE**  
+`http://localhost:8080/course/4`
