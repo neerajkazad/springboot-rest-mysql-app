@@ -18,7 +18,7 @@ You can test the application using the following sample endpoints and request da
   "price": 3000.00
 }
 
-🔹 Get All Courses
+###🔹 Get All Courses
 GET http://localhost:8080/courses
 
 🔹 Get Course By ID
